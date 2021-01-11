@@ -6,6 +6,3 @@ function show() {
     console.log('测试页面');
 }
 show();
-function dis(){
-    console.log(666)
-}
