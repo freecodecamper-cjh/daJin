@@ -6,7 +6,3 @@ function show() {
     console.log('测试页面');
 }
 show();
-
-function opt(){
-    console.log(666)
-}
