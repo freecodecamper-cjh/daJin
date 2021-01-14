@@ -13,3 +13,19 @@ git pull origin main --allow-unrelated-histories
 
 # 强制推送
 git push -u origin main -f  个人觉得非必要时候不要用
+
+
+git --help  // 帮助
+dir         // 查看有哪些文件夹
+
+# 删除文件步骤
+
+1、git pull origin main	  // 先拉取下来
+
+2、git rm -r --cached target // 删除target文件夹
+
+3、git add target            // 添加文件夹
+
+4、git commit -m '删除了target'        // 提交,添加操作说明
+	
+5、git push origin main	 // 最后推送上去
