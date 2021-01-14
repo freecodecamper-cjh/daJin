@@ -1,7 +1,0 @@
-echo "# PUMA" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main	从命名分支
-git remote add origin git@github.com:gzh52009/PUMA.git
-git push -u origin main		-u 设定默认分支，加了参数-u后，以后即可直接用git push 代替git push origin main

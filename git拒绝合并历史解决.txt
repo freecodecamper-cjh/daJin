@@ -1,3 +1,0 @@
-git pull --allow-unrelated-histories
-
-git push --allow-unrelated-histories
