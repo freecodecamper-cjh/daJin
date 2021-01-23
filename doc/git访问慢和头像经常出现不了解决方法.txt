@@ -1,0 +1,20 @@
+﻿第一种：
+1.打开https://www.ipaddress.com/，输入要访问的地址，查询到对应的ip地址，例如把github.com输入查询到对应id是140.82.112.4 ：
+然后打开 windows系统在： C:\Windows\System32\drivers\etc\hosts
+
+
+例如在host文件下这样添加：
+# GitHub Start 
+	140.82.112.4        github.com
+	199.232.96.133      avatars.githubusercontent.com
+# GitHub End
+
+2.https://www.ipaddress.com/ 查询的是国外的id，国内的用https://www.ping.cn/，查到github.com和avatars.githubusercontent.com对应ip
+然后打开 windows系统在： C:\Windows\System32\drivers\etc\hosts
+
+
+例如在host文件下这样添加：
+# GitHub Start 
+	13.250.177.223     github.com
+	151.101.108.133    avatars.githubusercontent.com
+# GitHub End
